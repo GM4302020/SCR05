@@ -1,5 +1,9 @@
 {% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Home - OT Shipments{% endblock %} 
 
 {% block content %}
+<img src="{% static 'logo.jpg' %}" alt="">
 <h1>Hello, world!</h1>
 {% endblock %}
